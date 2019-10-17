@@ -1,0 +1,4 @@
+; source.def : Winner的模块参数。
+EXPORTS
+	HswGetModuleHandle         @1  ;NONAME
+    ; 此处可以是显式导出
