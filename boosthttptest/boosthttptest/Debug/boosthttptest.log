@@ -1,0 +1,14 @@
+﻿  request_handler.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  request_parser.cpp
+  server.cpp
+  Generating Code...
+D:\ccppworkspace\boosthttptest\boosthttptest\request_handler.cpp(73,38): warning C4244: 'argument': conversion from 'std::streamsize' to 'const unsigned int', possible loss of data
+D:\ccppworkspace\boosthttptest\boosthttptest\request_handler.cpp(73,38): warning C4244: Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+D:\ccppworkspace\boosthttptest\boosthttptest\request_handler.cpp(73,38): warning C4244: - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+D:\ccppworkspace\boosthttptest\boosthttptest\request_handler.cpp(73,38): warning C4244: - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+D:\ccppworkspace\boosthttptest\boosthttptest\request_handler.cpp(73,38): warning C4244: Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+LINK : fatal error LNK1104: cannot open file 'libboost_date_time-vc142-mt-gd-x32-1_70.lib'
