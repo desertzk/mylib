@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\ccppworkspace\templetelearn\templetelearn\Source.cpp(51,28): error C3520: 'args': parameter pack must be expanded in this context
+D:\ccppworkspace\templetelearn\templetelearn\Source.cpp(77): message : see reference to function template instantiation 'void execute_impl<const char(&)[2],int,const char(&)[2]>(const char (&)[2],int &&,const char (&)[2])' being compiled
+D:\ccppworkspace\templetelearn\templetelearn\Source.cpp(51,25): error C3520: 'T': parameter pack must be expanded in this context
+D:\ccppworkspace\templetelearn\templetelearn\Source.cpp(51,2): error C2672: 'execute_t': no matching overloaded function found
